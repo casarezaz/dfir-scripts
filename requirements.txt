@@ -1,0 +1,4 @@
+# All scripts run on stdlib alone; these enable optional inputs/features.
+python-evtx>=0.7.4     # windows_evtx_triage.py: .evtx parsing
+scapy>=2.5.0           # pcap_beacon_detector.py: pcap/pcapng parsing
+volatility3>=2.5.0     # vol3_triage.py: memory image analysis
