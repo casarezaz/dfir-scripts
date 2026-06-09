@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# analysis outputs
+*.csv
+vol3_triage_output/
+LR_*_*/
+LR_*.zip
+LR_*.zip.sha256
